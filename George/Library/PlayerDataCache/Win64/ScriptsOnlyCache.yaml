@@ -3,6 +3,8 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - Movement
     - StartPlaying
+    - ntw.CurvedTextMeshPro.TextProOnACircle
+    - rotateSky
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -147,7 +149,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6390}
     - Class: 114
-      Script: {instanceID: 23516}
+      Script: {instanceID: 6546}
+    - Class: 114
+      Script: {instanceID: 23324}
+    - Class: 114
+      Script: {instanceID: 26036}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -755,6 +761,12 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
+      Hash: be24f06ad242656a8cebd77a88ef8909
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: StartPlaying
+  - hash:
+      serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -947,12 +959,24 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: be24f06ad242656a8cebd77a88ef8909
+      Hash: 8a2edb618ab33fd86995f38830aeadf8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: ntw.CurvedTextMeshPro
+    className: TextProOnAExp
+  - hash:
+      serializedVersion: 2
+      Hash: c8517e136fe7c80cda926e9ccb8eba4c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: ntw.CurvedTextMeshPro
+    className: TextProOnACircle
+  - hash:
+      serializedVersion: 2
+      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: StartPlaying
+    className: rotateSky
   platform: 19
   scenePathNames:
   - Assets/_/Scenes/main.unity
   - Assets/_/Scenes/SampleScene.unity
-  playerPath: C:/Users/antoi/Documents/Homework/4A/Unity_Projects/George/George/George.exe
+  playerPath: C:/Users/antoi/Documents/Homework/4A/Unity_Projects/George/builds/George.exe

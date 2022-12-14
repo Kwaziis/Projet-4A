@@ -309,7 +309,11 @@
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Flow.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.State.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.ref.dll"
+"Assets/CurvedTextMeshPro/Scripts/TextProOnACircle.cs"
+"Assets/CurvedTextMeshPro/Scripts/TextProOnACurve.cs"
+"Assets/CurvedTextMeshPro/Scripts/TextProOnAExp.cs"
 "Assets/_/Scripts/Movement.cs"
+"Assets/_/Scripts/rotateSky.cs"
 "Assets/_/Scripts/StartPlaying.cs"
 -langversion:9.0
 
