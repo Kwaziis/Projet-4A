@@ -41,9 +41,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Style
     - TMPro.VertexGradient
     UnityEngine.CoreModule:
-    - UnityEngine.Events.ArgumentCache
     - UnityEngine.Events.PersistentCallGroup
-    - UnityEngine.Events.PersistentListenerMode
     UnityEngine.TextCoreFontEngineModule:
     - UnityEngine.TextCore.FaceInfo
     - UnityEngine.TextCore.Glyph
@@ -141,19 +139,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4514}
     - Class: 114
-      Script: {instanceID: 5280}
+      Script: {instanceID: 5000}
     - Class: 114
-      Script: {instanceID: 5894}
+      Script: {instanceID: 5286}
     - Class: 114
-      Script: {instanceID: 6046}
+      Script: {instanceID: 5900}
     - Class: 114
-      Script: {instanceID: 6390}
+      Script: {instanceID: 6052}
     - Class: 114
-      Script: {instanceID: 6546}
+      Script: {instanceID: 6104}
     - Class: 114
-      Script: {instanceID: 23324}
+      Script: {instanceID: 6398}
     - Class: 114
-      Script: {instanceID: 26036}
+      Script: {instanceID: 6554}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -611,6 +609,18 @@ ScriptsOnlyBuild:
     className: UnityOnEndDragMessageListener
   - hash:
       serializedVersion: 2
+      Hash: c8517e136fe7c80cda926e9ccb8eba4c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: ntw.CurvedTextMeshPro
+    className: TextProOnACircle
+  - hash:
+      serializedVersion: 2
+      Hash: 8a2edb618ab33fd86995f38830aeadf8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: ntw.CurvedTextMeshPro
+    className: TextProOnAExp
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -723,6 +733,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: rotateSky
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -957,24 +973,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 8a2edb618ab33fd86995f38830aeadf8
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: ntw.CurvedTextMeshPro
-    className: TextProOnAExp
-  - hash:
-      serializedVersion: 2
-      Hash: c8517e136fe7c80cda926e9ccb8eba4c
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: ntw.CurvedTextMeshPro
-    className: TextProOnACircle
-  - hash:
-      serializedVersion: 2
-      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: rotateSky
   platform: 19
   scenePathNames:
   - Assets/_/Scenes/main.unity
