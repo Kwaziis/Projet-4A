@@ -781,8 +781,9 @@ GameObject:
   - component: {fileID: 5224320576329520897}
   - component: {fileID: 8026668716268872651}
   - component: {fileID: 2076227267}
-  - component: {fileID: 9164641035768141989}
   - component: {fileID: 9164641035768141990}
+  - component: {fileID: 9164641035768141991}
+  - component: {fileID: 9164641035768141992}
   m_Layer: 0
   m_Name: Medieval_House (1) Variant
   m_TagString: Untagged
@@ -805,18 +806,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!114 &9164641035768141989
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8386978883141747230}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 598416fdfba55c3449994ae16e69ad3b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!64 &9164641035768141990
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -831,3 +820,34 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 5904184366281404057, guid: dbb68b9173205b648a4c40a2f49b9ae3, type: 3}
+--- !u!114 &9164641035768141991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8386978883141747230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 1, g: 0, b: 0.0094127655, a: 1}
+  outlineWidth: 5
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
+--- !u!114 &9164641035768141992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8386978883141747230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0910f82a01ef9b4e87c2be97f1ae0d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1348168226}
