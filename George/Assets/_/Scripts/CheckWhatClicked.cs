@@ -34,7 +34,7 @@ public class CheckWhatClicked : MonoBehaviour
     {
         if (CanBeDestroyed)
         {
-            //destruction.Invoke("Break", 0f);
+            Destroy(gameObject);
             outlineScript.enabled = false;
             IsDestroyed = true;
         }

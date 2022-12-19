@@ -5,18 +5,41 @@ using UnityEngine;
 [System.Serializable]
 public class Loot
 {
-    public float Chance;
-    public bool Present;
+    //categorise les loots des batiments (surement que des armes mais ça peut changer)
+    public Weapon prefab;
+    public float Chance = 100;
+    public int Tier = 1;
+    public bool alreadyLooted = false;
 }
 
 [CreateAssetMenu]
 public class BuildingLoots : ScriptableObject
 {
+    //une liste de loots que qui peuvent apparaitre d'un batiment
     public Loot[] loots;
-    // Start is called before the first frame update
-    public Loot GetLoot()
+    // donne un loot qui n'est pas déja aparu et qui a un tier valide
+    public Loot GetLoot(int Tier)
     {
-        float drawn = Random.Range(0, loots.Length);
-        return loots[(int)Mathf.Floor(drawn)];
+        float drawn = Random.Range(0f, 100f);
+        foreach(Loot loot in loots)
+        {
+            if (loot.alreadyLooted) 
+            {
+                continue;
+            }
+            if (loot.Chance <= drawn && loot.Tier <= Tier) 
+            {
+                loot.alreadyLooted = true;
+                return loot;
+            }
+        }
+        return null;
+    }
+    public void initialize()
+    { 
+        foreach(Loot loot in loots)
+        {
+            loot.alreadyLooted = false;
+        }
     }
 }

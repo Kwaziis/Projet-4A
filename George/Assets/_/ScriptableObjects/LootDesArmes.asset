@@ -12,4 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41a00b541344db544b300cdf4f34c2f8, type: 3}
   m_Name: LootDesArmes
   m_EditorClassIdentifier: 
-  loots: []
+  loots:
+  - prefab: {fileID: 465148976289839503, guid: 5dbfc893bbf73ff46b23006a2643d084, type: 3}
+    Chance: 100
+    Tier: 1
+    alreadyLooted: 0
+  - prefab: {fileID: 262075164707027903, guid: 5a413335460ca85479eb8ebee56ba3f2, type: 3}
+    Chance: 0
+    Tier: 1
+    alreadyLooted: 1
