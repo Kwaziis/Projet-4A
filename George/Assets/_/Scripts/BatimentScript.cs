@@ -9,10 +9,13 @@ public class BatimentScript : MonoBehaviour
     public GameObject destroyedPrefab;
     public Material myMaterial;
     bool CanBeDestroyed, IsDestroyed;
+
+    public ProgressBar ProgressBar;
     void Start()
     {
         
         outlineScript = GetComponent<Outline>();
+        ProgressBar.maximum += 1;
         //destruction = GetComponent<Destruction>();
     }
 
@@ -37,6 +40,7 @@ public class BatimentScript : MonoBehaviour
      
         if (CanBeDestroyed)
         {
+            ProgressBar.current += 1;
             Destroy(gameObject);
             outlineScript.enabled = false;
             IsDestroyed = true;

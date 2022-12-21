@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0874382, g: 0.08449132, b: 0.0792606, a: 1}
+  m_IndirectSpecularColor: {r: 0.08743019, g: 0.08448618, b: 0.07925755, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -410,6 +410,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &449926328 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3677221143704578872, guid: 017fc379736000647a0acc9bf7ad4d25, type: 3}
+  m_PrefabInstance: {fileID: 3677221142893718824}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b8e9928239305345bd8ef6ca063cc11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &462913195 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5500713123104642192, guid: 9caf091b07657684aa4ff82180388261, type: 3}
@@ -566,6 +577,7 @@ MonoBehaviour:
   player: {fileID: 1292919587}
   destroyedPrefab: {fileID: 0}
   myMaterial: {fileID: 0}
+  ProgressBar: {fileID: 449926328}
 --- !u!1001 &605526012
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -835,6 +847,7 @@ MonoBehaviour:
   player: {fileID: 1292919587}
   destroyedPrefab: {fileID: 0}
   myMaterial: {fileID: 0}
+  ProgressBar: {fileID: 449926328}
 --- !u!114 &860464244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1327,7 +1340,7 @@ AudioSource:
   m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
-  Mute: 1
+  Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
@@ -1698,6 +1711,7 @@ MonoBehaviour:
   player: {fileID: 1292919587}
   destroyedPrefab: {fileID: 0}
   myMaterial: {fileID: 0}
+  ProgressBar: {fileID: 449926328}
 --- !u!1 &408253157442620866
 GameObject:
   m_ObjectHideFlags: 0
@@ -2084,6 +2098,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3677221143704578872, guid: 017fc379736000647a0acc9bf7ad4d25, type: 3}
+      propertyPath: current
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3677221143704578872, guid: 017fc379736000647a0acc9bf7ad4d25, type: 3}
+      propertyPath: maximum
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 017fc379736000647a0acc9bf7ad4d25, type: 3}
 --- !u!1 &3792476546135400496
@@ -2336,6 +2358,7 @@ MonoBehaviour:
   player: {fileID: 1292919587}
   destroyedPrefab: {fileID: 0}
   myMaterial: {fileID: 0}
+  ProgressBar: {fileID: 449926328}
 --- !u!114 &5918749489811698211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2506,6 +2529,7 @@ MonoBehaviour:
   player: {fileID: 1292919587}
   destroyedPrefab: {fileID: 0}
   myMaterial: {fileID: 0}
+  ProgressBar: {fileID: 449926328}
 --- !u!114 &6816750518008276342
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2668,6 +2692,7 @@ MonoBehaviour:
   player: {fileID: 1292919587}
   destroyedPrefab: {fileID: 0}
   myMaterial: {fileID: 0}
+  ProgressBar: {fileID: 449926328}
 --- !u!114 &6887348644059525203
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2851,6 +2876,7 @@ MonoBehaviour:
   player: {fileID: 1292919587}
   destroyedPrefab: {fileID: 0}
   myMaterial: {fileID: 0}
+  ProgressBar: {fileID: 449926328}
 --- !u!114 &6961830810536207492
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3082,6 +3108,7 @@ MonoBehaviour:
   player: {fileID: 1292919587}
   destroyedPrefab: {fileID: 0}
   myMaterial: {fileID: 0}
+  ProgressBar: {fileID: 449926328}
 --- !u!114 &7849142070630729844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3268,6 +3295,7 @@ MonoBehaviour:
   player: {fileID: 1292919587}
   destroyedPrefab: {fileID: 0}
   myMaterial: {fileID: 0}
+  ProgressBar: {fileID: 449926328}
 --- !u!114 &8341091174283394634
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3578,6 +3606,7 @@ MonoBehaviour:
   player: {fileID: 1292919587}
   destroyedPrefab: {fileID: 0}
   myMaterial: {fileID: 0}
+  ProgressBar: {fileID: 449926328}
 --- !u!1 &8834435324619162984
 GameObject:
   m_ObjectHideFlags: 0
@@ -3740,6 +3769,7 @@ MonoBehaviour:
   player: {fileID: 1292919587}
   destroyedPrefab: {fileID: 0}
   myMaterial: {fileID: 0}
+  ProgressBar: {fileID: 449926328}
 --- !u!4 &9164641035768141988
 Transform:
   m_ObjectHideFlags: 0
@@ -3802,6 +3832,7 @@ MonoBehaviour:
   player: {fileID: 1292919587}
   destroyedPrefab: {fileID: 0}
   myMaterial: {fileID: 2100000, guid: 930518902aef83c42b5c3e62fcc21931, type: 2}
+  ProgressBar: {fileID: 449926328}
 --- !u!114 &9164641035768141993
 MonoBehaviour:
   m_ObjectHideFlags: 0
