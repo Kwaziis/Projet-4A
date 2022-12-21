@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-public class CheckWhatClicked : MonoBehaviour
+public class BatimentScript : MonoBehaviour
 {
     // Start is called before the first frame update
     private MonoBehaviour outlineScript, destruction;
