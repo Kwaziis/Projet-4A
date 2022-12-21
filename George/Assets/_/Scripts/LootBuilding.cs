@@ -10,7 +10,6 @@ public class LootBuilding : MonoBehaviour
     void Start()
     {
         table.initialize();
-        Debug.Log("oui");
         pop = table.GetLoot(1);
         if (pop == null)
         {
