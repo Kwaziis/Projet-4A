@@ -6,6 +6,8 @@ public class BatimentScript : MonoBehaviour
     // Start is called before the first frame update
     private MonoBehaviour outlineScript, destruction;
     public GameObject player;
+    public GameObject destroyedPrefab;
+    public Material myMaterial;
     bool CanBeDestroyed, IsDestroyed;
     void Start()
     {
@@ -38,6 +40,8 @@ public class BatimentScript : MonoBehaviour
             Destroy(gameObject);
             outlineScript.enabled = false;
             IsDestroyed = true;
+            Instantiate(destroyedPrefab,  gameObject.transform.position,  Quaternion.identity); 
+            destroyedPrefab.GetComponent<Renderer>().material = myMaterial;
             
         }
     }
