@@ -1,8 +1,8 @@
 # George 
 *La colère du dieu poulet*
 
-Dans un monde où chaque animaux ont des divinités qui leur sont associées,
-un festival des animaux est organsié chaque année pour rendre honeur à ces dieux qui permettent aux humains de survivre grâce aux bienfaits de toutes ces créatures,
+Dans un monde où chaquun des animaux ont des divinités qui leur sont associées,
+un festival est organsié chaque année pour rendre honeur à ces dieux qui permettent aux humains de survivre grâce aux bienfaits de toutes ces créatures,
 [![L'inquisiteur](Inquisiteur.png)]
 Mais dans le petit village de Durnatel où l'inquisiteur a été élu récement, les chosent ne vont pas se passer normalement, mené par sa haine envers les galinacés, l'inquisiteur une fois au pouvoir décida de bannir les poulets du festival des animaux.
 [![Dieu Poulet](dieu_poulet.jpg)]
