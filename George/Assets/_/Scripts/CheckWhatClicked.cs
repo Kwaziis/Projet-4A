@@ -32,11 +32,13 @@ public class CheckWhatClicked : MonoBehaviour
 
     void OnMouseDown()
     {
+     
         if (CanBeDestroyed)
         {
             Destroy(gameObject);
             outlineScript.enabled = false;
             IsDestroyed = true;
+            
         }
     }
 }
