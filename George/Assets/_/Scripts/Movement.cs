@@ -25,9 +25,10 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (pos != transform.position) 
+        if (pos != transform.position && !animation.GetCurrentAnimatorStateInfo(0).IsName("Base Layer.walking") )
         {
-            animation.Play("walking", 0, -1);
+            animation.Play("Base Layer.walking", 0, 0);
+            pos = transform.position;
         }
         if (Input.GetMouseButtonDown(0))
         {
